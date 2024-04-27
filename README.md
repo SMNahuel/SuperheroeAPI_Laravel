@@ -1,13 +1,3 @@
-## Run serve
-php artisan serve
+# Descripcion
 
-## Carpetas modificada 
-.env <- que tiene los datos de la base de datos con la cual vamos a trabajar
-route/api <- rutas definadas
-storage/app/json <- Donde estan los superheroes
-database/migrations
-database/seeders
-http/controllers
-    superheroeController
-    userController
-http/models
+Proyecto para cliente, API Rest sobre un objeto JSON usan Laravel 8 y desplegado en Vercel el front fue trabajado en Angular, se quitaron modulos contra ataques DDOS como el csrf para despliegue sin muchas modificaciones en Vercel, base de datos desplegada en railway, se uso postgres como base de datos. 
